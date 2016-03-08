@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <script src="reverselookup.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Josefin+Slab">
+    <link rel="stylesheet" type="text/css" href="reverselookup.css">
+    <link rel="shortcut icon" href="blaklowtuz.ico" type="image/x-icon" />
+    <title>Item Lookup</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Matt Cardinal">
+    <meta name="description" content="An item lookup app for Descension.">
+    <meta name=viewport content ="width=600">
+  </head>
+  <body>
+    <div id="reverseLookup">
+      <div id="lookupForm">
+        <b>Tier:</b>
+        <select id="lookupTier">
+          <option selected>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+        </select>
+        <b>Table:</b>
+        <select id="lookupList">
+          <option selected>store</option>
+        </select>
+        <b>Type:</b>
+        <select id="lookupType" onchange="onChangeTypeSelect()">
+          <option selected>weapon</option>
+          <option>armor</option>
+          <option>offhand</option>
+        </select>
+        <b>Subtype:</b>
+        <select id="lookupSubtype">
+        </select>
+        <button id="getStats" type="button" onclick="onStatsClick()">Stats</button>
+      </div>
+      <div id="lookupResult">
+      </div>
+    </div>
+</body>

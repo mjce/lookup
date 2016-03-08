@@ -1,0 +1,51 @@
+body{
+  font-family: 'Josefin Slab', serif;
+}
+select {
+  font-family: 'Josefin Slab', serif;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+  color: black;
+}
+button {
+  font-family: 'Josefin Slab', serif;
+  padding: 5px;
+  color: black;
+  border: 1px solid gray;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 10%;
+  line-height: 1;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #dfdfdf;
+}
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.enabled {
+
+}
+.bold{
+  font-weight: bold;
+}
+#reverseLookup{
+  border: 1.5px solid black;
+  margin-right: 10px;
+  display: inline-block;
+}
+#lookupForm{
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#lookupResult {
+  min-height: 25px;
+  border-top: 1px solid black;
+  border-top-width: 90%;
+  padding: 10px;
+  margin-bottom: 5px;
+}
